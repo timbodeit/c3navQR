@@ -20,6 +20,7 @@ img.qr { width: 70%; margin: 17% 15% 3% 15%; }
 div.logo { font-weight: bold; }
 div.logo img, div.logo span { vertical-align: middle; }
 div.logo span { font-size: 4em; }
+div.generatorLink { text-align: center; margin-top: 80px; font-size: 0.7em; }
 @media print {
   div.page { page-break-before: always; }
 }
@@ -42,6 +43,7 @@ foreach ($keys as $key) {
   $titleEN = $json_input[$key]["en"];
   echo "  <h1>$titleDE</h1>\n";
   echo "  <h1>$titleEN</h1>\n";
+  echo "  <div class=\"generatorLink\">Generate QR for your assembly at http://timbodeit.de/c3navQR</div>";
   echo "</div>\n";
 }
 ?>
