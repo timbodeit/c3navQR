@@ -33,6 +33,7 @@ $firstPage = true;
 foreach ($keys as $key) {
   if ($firstPage) {
     echo "<div>\n";
+    $firstPage = false;
   } else {
     echo "<div class=\"page\">\n";
   }
