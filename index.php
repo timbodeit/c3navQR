@@ -23,6 +23,8 @@ foreach ($json_input as $key => $array) {
 <head>
 <style>
 html { font-family: sans-serif; }
+div.info { margin-top: 8px; padding-top: 8px; color: #777; border-top: solid 1px #777; display: inline-block; }
+div.info a { color: #555; }
 </style>
 </head>
 <body>
@@ -42,5 +44,9 @@ foreach ($keys as $key) {
 <form action="generate.php" id="poiSelection">
   <input type="submit" value="Generate" style="margin-top: 10px;">
 </form>
+<div class="info">
+<a href="https://github.com/timbodeit/c3navQR">Fork this on Github</a><br>
+Call <a href="tel:2482">2484</a> if you have any questions.
+</div>
 </body>
 </html>
