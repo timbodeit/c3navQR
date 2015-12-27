@@ -36,7 +36,7 @@ foreach ($keys as $key) {
     echo "<div class=\"page\">\n";
   }
   echo "<div class=\"logo\"><img src=\"https://c3nav.de/static/img/logo.png\"><span>32c3nav</span></div>\n";
-  $navUrl = urlencode("https://c3nav.de/?o=$key");
+  $navUrl = urlencode("https://c3nav.de/o$key");
   $imgUrl = "https://chart.googleapis.com/chart?cht=qr&chl=$navUrl&chs=545x545&choe=UTF-8&chld=L|2";
   echo "  <img src=\"$imgUrl\" class=\"qr\">\n";
   $titleDE = $json_input[$key]["de"];
