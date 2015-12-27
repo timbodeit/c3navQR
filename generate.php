@@ -16,10 +16,11 @@ $keys = $_GET['POIs'];
 <style>
 html { font-family: sans-serif; }
 h1 { text-align: center; }
-img.qr { width: 70%; margin: 17% 15% 3% 15%; }
+img.qr { width: 60%; margin: 17% 20% 3% 20%; }
 div.logo { font-weight: bold; }
 div.logo img, div.logo span { vertical-align: middle; }
-div.logo span { font-size: 4em; }
+div.logo img { height: 8em; }
+div.logo span { font-size: 5em; }
 div.generatorLink { text-align: center; margin-top: 80px; font-size: 0.7em; }
 @media print {
   div.page { page-break-before: always; }
